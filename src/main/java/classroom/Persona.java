@@ -20,6 +20,7 @@ public class Persona {
 
     public Persona(){
         this.cedula = cc;
+        this.nombre = "";
         cc++;
     }
 
@@ -36,7 +37,7 @@ public class Persona {
     }
 
     public Persona(String nombre) {
-        this.nombre = "";
+        this.nombre = nombre;
         this.cedula = cc;
         cc++;
         totalPersonas++;
